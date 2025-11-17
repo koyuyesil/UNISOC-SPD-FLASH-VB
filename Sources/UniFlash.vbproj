@@ -184,6 +184,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.manifest" />
+    <None Include="boot.img" />
+    <None Include="DeviceApi\Channel.ini" />
+    <None Include="DeviceApi\DiagChan.ini" />
+    <None Include="DeviceApi\iSpLog.ini" />
+    <None Include="DeviceApi\PhoneCommand.ini" />
+    <None Include="libusb-1.0" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -194,8 +200,18 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+    <None Include="PAC Realme C25Y RMX3269.pac" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="DeviceApi\Channel9.dll" />
+    <Content Include="DeviceApi\DiagChan9.dll" />
+    <Content Include="DeviceApi\iSpLog.dll" />
+    <Content Include="DeviceApi\nvmerge.c" />
+    <Content Include="DeviceApi\PhoneCommand.dll" />
+    <Content Include="DeviceApi\PhoneCommand.xml" />
+    <Content Include="DeviceApi\PortCapture.dll" />
+    <Content Include="libusb-1.0.dll" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

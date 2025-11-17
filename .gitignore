@@ -1,3 +1,28 @@
+# Visual Studio
 .vs/
-Sources/bin/Debug/fdl1-sign.bin
-Sources/bin/Debug/fdl2-sign.bin
+
+# Build outputs
+Sources/bin/
+Sources/obj/
+
+# User files
+*.user
+*.suo
+
+# NuGet
+*.nupkg
+packages/
+*.snupkg
+
+# Logs
+*.log
+
+# Compiled files
+*.exe
+*.dll
+*.pdb
+
+# Others
+[Bb]uild/
+[Ll]og/
+[Tt]emp/
