@@ -12,17 +12,3 @@ Sources/obj/
 # NuGet
 *.nupkg
 packages/
-*.snupkg
-
-# Logs
-*.log
-
-# Compiled files
-*.exe
-*.dll
-*.pdb
-
-# Others
-[Bb]uild/
-[Ll]og/
-[Tt]emp/
